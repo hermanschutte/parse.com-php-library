@@ -244,6 +244,10 @@ class parseQuery extends parseRestClient{
 		}
 		
 	}
+
+    public function addInclude($name){
+        $this->_include[] = $name;
+    }
 }
 
 ?>
